@@ -78,8 +78,7 @@ If rebuilding:
 ## 4. Project Photos & Screenshots
 
 ## Codebase
-
-- A link to your final embedded C firmware codebases
-- A link to your Node-RED dashboard code
-- Links to any other software required for the functionality of your device
+- A link to your final embedded C firmware codebases: 
+- A link to your Node-RED dashboard code: http://20.83.165.177:1880/#flow/f0b6c745df1e85c5
+- Links to any other software required for the functionality of your device: 
 
