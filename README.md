@@ -67,6 +67,10 @@ If rebuilding:
   - Gained hands-on experience with Node-RED for rapid prototyping of cloud workflows and device dashboards.  
   - Understood trade-offs in low-power embedded design, from peripheral sleep to interrupt-driven wake-ups.
 
+### Project Links
+ - NodeRed UI: http://20.83.165.177:1880/ui/#!/0?socketid=6hr5YcUWveSmIbtoAAC3
+ - Final PCBA: https://upenn-eselabs.365.altium.com/designs/76787DB1-9A10-4CC7-A173-6C2606C8EC13?variant=[No+Variations]&activeDocumentId=CircuitBreaker.PcbDoc&activeView=3D#design
+
 
 ## 3. Hardware & Software Requirements
 
