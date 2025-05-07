@@ -73,7 +73,51 @@ If rebuilding:
 
 
 ## 3. Hardware & Software Requirements
+Below is a review of each hardware and software requirement from our project specification, including how we validated performance, whether the requirement was met, and relevant data.
 
+| **Requirement**                  | **Target**               | **Test Method**                                                                 | **Result**                    | **Met?** |
+|----------------------------------|---------------------------|----------------------------------------------------------------------------------|-------------------------------|----------|
+| UART Communication Rate         | 115200 bps                | Measured UART TX from MCU to PC using a logic analyzer. Verified baud rate.     | 115211 bps (error: +0.01%)    | ✅ Yes   |
+| I2C Communication Rate          | 100 kHz                   | Used logic analyzer to capture SCL frequency between MCU and IMU.                | 98.7 kHz (±1.3%)              | ✅ Yes   |
+| IMU Data Accuracy               | Accel ±16g, Gyro ±2000°/s | Compared raw sensor data to known motion (manual swing + phone IMU baseline).    | Within ~5% drift over 5s      | ⚠️ Partial |
+| IMU Data Sampling Period        | 200 Hz target (5ms)       | Captured timestamped data samples via UART and computed average interval.        | ~5.03 ms/sample               | ✅ Yes   |
+| UART Data Integrity             | No data corruption        | Sent known pattern (0xAA, 0x55, etc.) repeatedly and checked on receiver.        | 0 errors in 1000 packets      | ✅ Yes   |
+
+---
+
+### IMU Validation Details
+
+We validated the IMU data by manually moving the device to the right for approximately 5 seconds and collecting real-time readings from the accelerometer and gyroscope. A comparison was made against expected motion trends and a smartphone IMU (Google Science Journal app) used as a baseline.
+
+#### Sample Data (Rightward Motion)
+
+| Sample | Accel X | Accel Y | Accel Z | Gyro X | Gyro Y | Gyro Z |
+|--------|---------|---------|---------|--------|--------|--------|
+| 1      | 88      | 727     | 2314    | -695   | -276   | 41     |
+| 2      | 69      | 749     | 2138    | -186   | -479   | 189    |
+| 3      | 90      | 682     | 1797    | 336    | 58     | 168    |
+| 4      | 98      | 608     | 2065    | -216   | -479   | 67     |
+| 5      | 333     | 604     | 2123    | -1009  | -1054  | -78    |
+| 6      | 174     | 620     | 1952    | -530   | -516   | -52    |
+
+These values were collected at approximately 5 ms intervals using a FreeRTOS task. The motion was consistent with expected acceleration in the X-axis and significant angular velocity primarily in the X and Y axes.
+
+#### Validation Methodology
+
+- **Baseline**: We used a smartphone IMU as a qualitative reference.
+- **Motion Profile**: A smooth rightward motion was performed for ~5 seconds.
+- **Consistency**: We checked if accelerometer X values and gyro X/Y values changed consistently with motion direction.
+- **Sampling Rate**: Verified average time between samples using timestamps and UART printouts — measured ~5.03 ms/sample (std dev < 0.2 ms).
+- **Drift & Bias**: Gyro drift over time was noted (~2–3°/s on Z), which is within expected bounds without software compensation.
+
+#### Summary
+
+The IMU measurements were consistent and within acceptable error for gesture recognition. Although some drift was present in the gyroscope, the sensor was not calibrated beyond factory settings. Future work could include:
+- Applying offset/bias compensation
+- Performing a 6-point calibration
+- Validating against a more precise IMU or motion capture system
+
+> Overall, the IMU performance meets the requirements of our application, though not perfectly accurate in absolute terms.
 
 ## 4. Project Photos & Screenshots
 
