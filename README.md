@@ -182,6 +182,9 @@ Most hardware and software requirements were met, including communication speeds
 <img width="761" alt="8490961adb042fd461c28a89a4b959c" src="https://github.com/user-attachments/assets/380d4a09-f28a-4ff2-a08a-fbd0250e707a" />
 <img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/40695978-eb0d-4f08-891f-ce371687f996" />
 ![c747624362c88df851470a474943dfd](https://github.com/user-attachments/assets/2a90eaf8-055c-49f0-8b9e-c7c10b2731d3)
+![109a8c5e8eacb9e3d81f8a0a22ea576](https://github.com/user-attachments/assets/b6d67d20-b087-4d28-a0b0-a0b3caee0bd3)
+![image](https://github.com/user-attachments/assets/3429e6a9-6125-4943-8e48-f3d99442e2ea)
+![image](https://github.com/user-attachments/assets/6a4d0ad6-8b79-43f8-962e-ca59374d323d)
 
 
 
