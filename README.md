@@ -181,7 +181,17 @@ Most hardware and software requirements were met, including communication speeds
 <img width="1288" alt="b3e152c16309b5fa83244ea3cb636fd" src="https://github.com/user-attachments/assets/98e34325-507a-422b-aad3-b59056244a17" />
 <img width="761" alt="8490961adb042fd461c28a89a4b959c" src="https://github.com/user-attachments/assets/380d4a09-f28a-4ff2-a08a-fbd0250e707a" />
 <img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/40695978-eb0d-4f08-891f-ce371687f996" />
-![f3c2fcbdfcc598dc698ab6a4789b59e](https://github.com/user-attachments/assets/1b372b4c-6162-4a73-ae9a-36d4da83924b)
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/1b372b4c-6162-4a73-ae9a-36d4da83924b" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/8e70c4ba-09bb-4abc-a592-a69c1638bc4b" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/d6be78ec-af7e-47c1-8a02-1c5858d2bb8e" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/76204224-2f21-4d9a-9d2b-b88badf1cf26" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/bbc6d8f6-f805-4252-87db-7563f651f593" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/76204224-2f21-4d9a-9d2b-b88badf1cf26" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/bbc6d8f6-f805-4252-87db-7563f651f593" />
+<img width="1398" alt="12e93530778c4e9bb14bda8beec3391" src="https://github.com/user-attachments/assets/ed4350f7-a22d-4591-9537-f44ba03b8df3" />
+<img width="1920" alt="774c96b1bd5e55735be023736e6fc2b" src="https://github.com/user-attachments/assets/1d2a5b9f-00ec-433d-836a-0fcf940f9889" />
+
+
 
 
 
