@@ -198,7 +198,7 @@ Most hardware and software requirements were met, including communication speeds
 
 
 ## Codebase
-- A link to your final embedded C firmware codebases: 
+- A link to your final embedded C firmware codebases: https://github.com/ese5160/final-project-t17-circuitbreaker
 - A link to your Node-RED dashboard code: http://20.83.165.177:1880/#flow/f0b6c745df1e85c5
 - Links to any other software required for the functionality of your device: 
 
