@@ -1,10 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AlBFWSQg)
 # a14g-final-submission
 
-    * Team Number: 
-    * Team Name: 
-    * Team Members: 
-    * Github Repository URL: 
+    * Team Number: 17
+    * Team Name: CircuitBreaker
+    * Team Members: Yuetian Zhao&Shuowen Gu
+    * Github Repository URL: https://github.com/ese5160/a14g-final-submission-s25-t17-circuitbreaker
     * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc) 
 
 ## 1. Video Presentation
