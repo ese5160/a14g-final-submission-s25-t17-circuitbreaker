@@ -176,6 +176,14 @@ Most hardware and software requirements were met, including communication speeds
 > Future improvements could involve sensor calibration and digital filtering to further reduce IMU bias and noise.
 
 ## 4. Project Photos & Screenshots
+<img width="1460" alt="0a13d0dadd63ec824ef4e53aa1bd70d" src="https://github.com/user-attachments/assets/f50efbaa-5ab4-412e-b31c-f8479b71e991" />
+<img width="1049" alt="f0244dd0741f6f854dabb91bf4d274d" src="https://github.com/user-attachments/assets/9799b372-a1bd-4f76-aad0-ee9c015b2f46" />
+<img width="1288" alt="b3e152c16309b5fa83244ea3cb636fd" src="https://github.com/user-attachments/assets/98e34325-507a-422b-aad3-b59056244a17" />
+<img width="761" alt="8490961adb042fd461c28a89a4b959c" src="https://github.com/user-attachments/assets/380d4a09-f28a-4ff2-a08a-fbd0250e707a" />
+<img width="928" alt="752274d269aeb354b977051d2875cca" src="https://github.com/user-attachments/assets/40695978-eb0d-4f08-891f-ce371687f996" />
+![c747624362c88df851470a474943dfd](https://github.com/user-attachments/assets/2a90eaf8-055c-49f0-8b9e-c7c10b2731d3)
+
+
 
 ## Codebase
 - A link to your final embedded C firmware codebases: 
